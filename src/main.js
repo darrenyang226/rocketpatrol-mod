@@ -15,7 +15,7 @@ let borderPadding = borderUISize / 3;
 let keyS, keyR, keyLEFT, keyRIGHT, keyCLICK, input, mouse; //F
 
 
-//Name: Darren Yang, Project title: Rocket Patrol Modified, 7/06/2021, took estimated 4 days to complete.
+//Name: Darren Yang, Project title: Rocket Patrol Modified, 7/07/2021, took estimated 4 days to complete.
 //Aimed for intermediate tier, 
 //create a new spaceship type(20)
 //Implement an alternating two-player mode (20),
