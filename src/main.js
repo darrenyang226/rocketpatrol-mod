@@ -12,7 +12,7 @@ let game = new Phaser.Game(config);
 
 let borderUISize = game.config.height / 15;
 let borderPadding = borderUISize / 3;
-let keyF, keyR, keyLEFT, keyRIGHT, keyCLICK, input, mouse;
+let keyS, keyR, keyLEFT, keyRIGHT, keyCLICK, input, mouse; //F
 
 
 //Name: Darren Yang, Project title: Rocket Patrol Modified, 7/06/2021, took estimated 4 days to complete.
