@@ -11,7 +11,7 @@ class Menu3 extends Phaser.Scene{
     create() {
         let menuConfig = {
             fontfamily: 'Courier',
-            fontSize: '28px',
+            fontSize: '20px',//28px
             backgroundColor: '#76716B',
             color: '#FFFFFF',
             align: 'right',
@@ -25,7 +25,7 @@ class Menu3 extends Phaser.Scene{
         this.add.text(game.config.width/2,
             game.config.height/2 - borderUISize - borderPadding, 
             'ROCKET PATROL', menuConfig).setOrigin(0.5);
-        menuConfig.backgroundColor = '#00FF00';
+        menuConfig.backgroundColor = '#00FA9A'; //00FF00
         menuConfig.color = '#000';
         this.add.text(game.config.width/2, game.config.height/2,
             'Press ← for single player', menuConfig).setOrigin(0.5);

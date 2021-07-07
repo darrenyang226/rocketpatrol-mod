@@ -14,9 +14,9 @@ class Menu extends Phaser.Scene{
     create() {
         let menuConfig = {
             fontfamily: 'Courier',
-            fontSize: '28px',
+            fontSize: '20px',
             backgroundColor: '#76716B',
-            color: '#FFFFFF',
+            color: '#98FB98',
             align: 'right',
             padding: {
                 top: 5,
@@ -28,7 +28,7 @@ class Menu extends Phaser.Scene{
         this.add.text(game.config.width/2,
             game.config.height/2 - borderUISize - borderPadding, 
             'ROCKET PATROL', menuConfig).setOrigin(0.5);
-        menuConfig.backgroundColor = '#7EDCBE';
+        menuConfig.backgroundColor = '#00FA9A'; //#7EDCBE
         menuConfig.color = '#000000';
         this.add.text(game.config.width/2, game.config.height/2,
             'Press ← to use arrow contols', menuConfig).setOrigin(0.5);
