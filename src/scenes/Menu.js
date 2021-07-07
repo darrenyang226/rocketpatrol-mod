@@ -33,7 +33,7 @@ class Menu extends Phaser.Scene{
         this.add.text(game.config.width/2, game.config.height/2,
             'Press ← to use arrow contols', menuConfig).setOrigin(0.5);
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize + borderPadding,
-            'and f button to shoot', menuConfig).setOrigin(0.5);
+            'and S button to shoot', menuConfig).setOrigin(0.5);
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize*2 +
             borderPadding*2, 'or press → to use mouse controls', menuConfig).setOrigin(0.5);
         this.add.text(game.config.width/2, game.config.height/2 + borderUISize*3 +
