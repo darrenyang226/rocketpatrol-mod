@@ -21,6 +21,6 @@ let keyS, keyR, keyLEFT, keyRIGHT, keyCLICK, input, mouse;
 //Implement an alternating two-player mode (20),
 //Create new artwork for all of the in-game assets (rocket, spaceships, explosion) (20)  
 //Implement mouse control for player movement and mouse click to fire (20)
-// Credits: James Liu , https://www.youtube.com/watch?v=laNi0fdF_DU (two-player mode ), 
-//https://www.youtube.com/watch?v=88DS3Z8nOdY (Score, general coding)
+// Credit: James Liu (two-player mode, mouse control), https://www.youtube.com/watch?v=88DS3Z8nOdY (Score, general coding)
+//https://steemit.com/utopian-io/@onepice/move-objects-according-to-the-mouse-position-with-phaser-3?fbclid=IwAR1skVmm8R2uDRqeFeqJ-F7Zxj9KlVVaa-qZWjP6vY1IoHonr4SW_z-RkV8(mouse control)
 
